@@ -45,14 +45,14 @@ export default function Home() {
         </div>
         <footer className="fixed bottom-5 w-full text-lg text-center text-white">
           <Link href="https://github.com/NotTCA/create-djs-app">
-            <a className="hover:text-blue-500 transition-all duration-300">
-              GitHub <BsGithub className="inline mr-1" />
+            <a className="px-2 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800">
+              GitHub <BsGithub className="inline" />
             </a>
           </Link>
           <GoDash className="inline mr-1 rotate-90" />
           <Link href="https://discord.js.org">
-            <a className="hover:text-blue-500 transition-all duration-300">
-              Discord.js <FaDiscord className="inline mr-1" />
+            <a className="px-2 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800">
+              Discord.js <FaDiscord className="inline" />
             </a>
           </Link>
         </footer>
