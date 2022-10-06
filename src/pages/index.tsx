@@ -49,7 +49,7 @@ export default function Home() {
               GitHub <BsGithub className="inline" />
             </a>
           </Link>
-          <GoDash className="inline mr-1 rotate-90" />
+          <GoDash className="inline rotate-90" />
           <Link href="https://discord.js.org">
             <a className="px-2 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800">
               Discord.js <FaDiscord className="inline" />
